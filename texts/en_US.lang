@@ -1,0 +1,4 @@
+entity.armadillo.name=Eye-madillo
+item.spawn_egg.entity.armadillo.name=Spawn Eye-madillo
+item.armadillo_scute.name=Eye-madillo Scute
+action.interact.brush=Brush
