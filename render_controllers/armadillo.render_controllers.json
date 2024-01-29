@@ -1,18 +1,32 @@
 {
-  "format_version": "1.10.0",
-  "render_controllers": {
-    "controller.render.armadillo": {
-      "geometry": "Geometry.default",
-      "materials": [ { "*": "Material.default" } ],
-	  "arrays": {"Array.skins": ["Texture.default","Texture.cursed","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default"]},
-      "textures": [ "query.is_name_any('Eyemadillo') ? Texture.cursed : Array.skins[variable.random]" ],
-      "part_visibility": [
-        { "body": "!variable.use_rolled_up_model" },
-        { "tail": "!variable.use_rolled_up_model" },
-        { "back_r_leg": "!variable.use_rolled_up_model" },
-        { "back_l_leg": "!variable.use_rolled_up_model" },
-        { "body_rolled_up": "variable.use_rolled_up_model" }
-      ]
+ "format_version": "1.10.0",
+ "render_controllers": {
+  "controller.render.armadillo_eyes": {
+   "geometry": "Geometry.default",
+   "materials": [{"*": "Material.default"}],
+   "arrays": {
+    "textures": {
+     "Array.skins": [
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.default",
+      "Texture.cursed"
+     ]
     }
+   },
+   "textures": ["query.get_name == 'Eyemadillo' ? Texture.cursed : Array.skins[variable.random]"],
+   "part_visibility": [
+    {"body": "!variable.use_rolled_up_model"},
+    {"tail": "!variable.use_rolled_up_model"},
+    {"back_r_leg": "!variable.use_rolled_up_model"},
+    {"back_l_leg": "!variable.use_rolled_up_model"},
+    {"body_rolled_up": "variable.use_rolled_up_model"}
+   ]
   }
+ }
 }
