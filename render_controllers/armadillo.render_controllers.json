@@ -4,7 +4,7 @@
     "controller.render.armadillo": {
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-	  "arrays": {"Array.skins": ["Texture.default","Texture.cursed","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default",]},
+	  "arrays": {"Array.skins": ["Texture.default","Texture.cursed","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default","Texture.default"]},
       "textures": [ "query.is_name_any('Eyemadillo') ? Texture.cursed : Array.skins[variable.random]" ],
       "part_visibility": [
         { "body": "!variable.use_rolled_up_model" },
