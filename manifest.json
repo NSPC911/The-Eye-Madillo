@@ -4,7 +4,7 @@
     "uuid": "303ef6f9-5df7-4a5f-9e24-70cbf3f47ef0",
     "name": "The real Eye-madillo",
     "description": "The nightmare fuel is real, it can't hurt you. Made by yours truly, NSPG911.\nName an armadillo 'Eyemadillo' to get the nightmare fuel.",
-    "version": [ 0, 0, 1 ],
+    "version": [ 0, 0, 2 ],
     "min_engine_version": [ 1, 20, 60 ]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "",
       "type": "resources",
       "uuid": "f5a42c69-c571-4f4c-88f9-80b8a1dc2f0e",
-      "version": [ 0, 0, 1 ]
+      "version": [ 0, 0, 2 ]
     }
   ]
 }
