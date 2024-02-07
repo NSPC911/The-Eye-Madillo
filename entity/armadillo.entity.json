@@ -12,7 +12,7 @@
    "render_controllers": ["controller.render.armadillo_eyes"],
    "scripts": {
     "initialize": [
-     "variable.random = Math.random(0,9);"
+     "variable.random = Math.random(0,3);"
     ],
     "pre_animation": [
      "variable.x_head_rotation = math.clamp(query.target_x_rotation, -32.5, 32.5);",

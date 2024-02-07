@@ -8,18 +8,11 @@
     "textures": {
      "Array.skins": [
       "Texture.default",
-      "Texture.default",
-      "Texture.default",
-      "Texture.default",
-      "Texture.default",
-      "Texture.default",
-      "Texture.default",
-      "Texture.default",
       "Texture.cursed"
      ]
     }
    },
-   "textures": ["query.get_name == 'Eyemadillo' ? Texture.cursed : Array.skins[variable.random]"],
+   "textures": ["Array.skins[variable.random]"],
    "part_visibility": [
     {"body": "!variable.use_rolled_up_model"},
     {"tail": "!variable.use_rolled_up_model"},

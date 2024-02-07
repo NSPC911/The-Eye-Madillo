@@ -14,5 +14,22 @@
       "uuid": "f5a42c69-c571-4f4c-88f9-80b8a1dc2f0e",
       "version": [ 0, 0, 2 ]
     }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "nametag",
+      "name": "Summon eyemadillo by naming an armadillo",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "oneinthree",
+      "name": "Eyemadillos have a one in three chance to spawn naturally\nThey change textures after rejoining of world",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "only",
+      "name": "No armadillos exist, only eyemadillos",
+      "memory_tier": 1
+    }
   ]
 }
